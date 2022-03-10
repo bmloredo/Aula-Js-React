@@ -8,38 +8,35 @@ function App() {
       idade: 26,
       dtNasc: "20/05/1995",
       nomeMae: "Sandra",
-      paiExiste: true,
-      nomePai: "Edmo",
+      nomePai: "Edmo"
     },
     {
       nome: "Cassio",
-      idade: 26,
-      dtNasc: "20/05/1995",
-      nomeMae: "Sandra",
-      paiExiste: true,
-      nomePai: "Edmo",
+      idade: 38,
+      dtNasc: "05/04/1987",
+      nomeMae: "Lucia Vera",
+      nomePai: ""
     },
     {
       nome: "Eduardo",
-      idade: 26,
-      dtNasc: "20/05/1995",
-      nomeMae: "Sandra",
-      paiExiste: true,
-      nomePai: "Edmo",
+      idade: 39,
+      dtNasc: "13/05/1983",
+      nomeMae: "Marcia",
+      nomePai: "Adelmo"
     },
     {
       nome: "Fatima",
-      idade: 26,
-      dtNasc: "20/05/1995",
-      nomeMae: "Sandra",
-      paiExiste: false,
+      idade: 21,
+      dtNasc: "08/02/2001",
+      nomeMae: "Cicera",
+      nomePai: "Valdemir",
     },
     {
       nome: "Ellen",
-      idade: 26,
-      dtNasc: "20/05/1995",
-      nomeMae: "Sandra",
-      paiExiste: false,
+      idade: 38,
+      dtNasc: "08/09/1983",
+      nomeMae: "Marta",
+      nomePai: ""
     },
   ];
 
@@ -54,8 +51,7 @@ function App() {
                 <p>idade: {pessoa.idade}</p>
                 <p>Data de Nascimento: {pessoa.dtNasc}</p>
                 <p>Nome da Mãe: {pessoa.nomeMae}</p>
-
-                {pessoa.paiExiste && <p>Nome do Pai: {pessoa.nomePai}</p>}
+                {pessoa.nomePai && <p>Nome do Pai: {pessoa.nomePai}</p>}
               </div>
             </div>
           )
