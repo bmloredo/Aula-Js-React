@@ -58,12 +58,39 @@ const fruit = venda.filter(sellerFruit=>{
   return sellerFruit.frutaVendida === 'abacaxi'
 })
 
+const teste = fruit.map(teste1 => {return teste1})
+console.log(teste[0].frutaVendida)
+
     return (
-      <div>
-        {best[0].autor}
-        <br></br>
-        {best[1].autor}
-        
+      <div className= 'App'>
+        <div className='title-livros'> <h1>Livros que não são Best Sellers</h1> </div>
+        {
+          best.map(livroBestSeller =>{
+            return (
+              <div className='principal'>
+                <div className='Livros'>
+                  <p>Nome do Livro: {livroBestSeller.nome}</p>
+                  <p>Autor: {livroBestSeller.autor}</p>
+                  <p>Quantidade de Páginas: {livroBestSeller.qt_paginas}</p>
+                </div>
+              </div>
+            )
+          })
+        }
+        <div className='title-vendas'>
+          <h1>Venda de Abacaxi</h1>
+        </div>
+        {
+          fruit.map(frutaAbacaxi => {
+            return (
+              <div className='abacaxi'>
+                <p>Nome do Vendedor: {frutaAbacaxi.vendedor}</p>
+                <p>Fruta Vendida: {frutaAbacaxi.frutaVendida}</p>
+                <p>Loja: {frutaAbacaxi.loja}</p>
+              </div>
+            )
+          })
+        }
       </div>
     );
 }

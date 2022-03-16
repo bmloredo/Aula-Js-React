@@ -1,18 +1,5 @@
-.principal{
-  display: flex;
-  justify-content: center;
-  background-color: rgb(200, 236, 236);
-}
 
-.principal div{
-  border: 0.3rem solid green;
-  margin-bottom: 15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 30%;
-}
+
 
 
 
