@@ -1,13 +1,15 @@
-
-
-
-
-
-/*
 .App {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   text-align: center;
 }
 
+.principal{
+  border: solid red;
+}
+
+/*
 .App-logo {
   height: 40vmin;
   pointer-events: none;
