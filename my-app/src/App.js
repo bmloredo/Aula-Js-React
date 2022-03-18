@@ -49,18 +49,13 @@ function App() {
 
   //Variáveis Filter
 
-  const best = livros.filter((book) => {
-    return book.bestSeller === false;
+  const best = livros.filter((livrosb) => {
+    return livrosb.bestSeller === false;
   });
 
-  const fruit = venda.filter((sellerFruit) => {
-    return sellerFruit.frutaVendida === "Abacaxi";
+  const fruta = venda.filter((vendaFruta) => {
+    return vendaFruta.frutaVendida === "Abacaxi";
   });
-
-  const teste = fruit.map((teste1) => {
-    return teste1;
-  });
-  console.log(teste[1]);
 
   return (
     <div className="App">
@@ -87,7 +82,7 @@ function App() {
           <h1>Venda de Abacaxi</h1>
         </div>
         <div  className="abacaxi">
-        {fruit.map((frutaAbacaxi) => {
+        {fruta.map((frutaAbacaxi) => {
           return (
             <div>
               <p>Nome do Vendedor: {frutaAbacaxi.vendedor}</p>
@@ -103,3 +98,5 @@ function App() {
 }
 
 export default App;
+
+//return string[0].toUpperCase() + string.slice(1);
