@@ -32,17 +32,17 @@ function App() {
   const venda = [
     {
       vendedor: "Marcos",
-      frutaVendida: "abacaxi",
+      frutaVendida: "Abacaxi",
       loja: "Loja 1",
     },
     {
       vendedor: "João",
-      frutaVendida: "abacate",
+      frutaVendida: "Abacate",
       loja: "Loja 2",
     },
     {
       vendedor: "Pedro",
-      frutaVendida: "abacaxi",
+      frutaVendida: "Abacaxi",
       loja: "Loja 3",
     },
   ];
@@ -54,7 +54,7 @@ function App() {
   });
 
   const fruit = venda.filter((sellerFruit) => {
-    return sellerFruit.frutaVendida === "abacaxi";
+    return sellerFruit.frutaVendida === "Abacaxi";
   });
 
   const teste = fruit.map((teste1) => {
@@ -66,35 +66,37 @@ function App() {
     <div className="App">
       <div className="livro-best">
         <div className="title-livros">
-          {" "}
-          <h1>Livros que não são Best Sellers</h1>{" "}
+          <h1>Livros que não são Best Sellers</h1>
         </div>
+        <div className="principal">
         {best.map((livroBestSeller) => {
           return (
-            <div className="principal">
               <div className="Livros">
                 <p>Nome do Livro: {livroBestSeller.nome}</p>
                 <p>Autor: {livroBestSeller.autor}</p>
                 <p>Quantidade de Páginas: {livroBestSeller.qt_paginas}</p>
               </div>
-            </div>
+            
           );
         })}
+        </div>
       </div>
 
       <div className="venda-abacaxi">
         <div className="title-vendas">
           <h1>Venda de Abacaxi</h1>
         </div>
+        <div  className="abacaxi">
         {fruit.map((frutaAbacaxi) => {
           return (
-            <div className="abacaxi">
+            <div>
               <p>Nome do Vendedor: {frutaAbacaxi.vendedor}</p>
               <p>Fruta Vendida: {frutaAbacaxi.frutaVendida}</p>
               <p>Loja: {frutaAbacaxi.loja}</p>
             </div>
           );
         })}
+        </div>
       </div>
     </div>
   );

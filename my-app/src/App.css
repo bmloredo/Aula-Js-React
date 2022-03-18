@@ -1,13 +1,44 @@
-.App {
+.livro-best{
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  text-align: center;
+  align-items: center;
 }
 
 .principal{
-  border: solid red;
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
 }
+
+.principal div{
+  border: solid gray;
+  padding: 1rem;
+}
+
+.venda-abacaxi{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.abacaxi{
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.abacaxi div{
+  border: solid gray;
+  padding: 1rem;
+}
+
+/*
+
+.fruta::first-letter{
+  text-transform: capitalize;
+}
+*/
+
 
 /*
 .App-logo {
