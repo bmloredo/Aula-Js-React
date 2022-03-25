@@ -1,36 +1,23 @@
-.livro-best{
+.App{
+  font-size: 20px;
+}
+
+.App input{
+  width: 20%;
+  margin-left: 1rem;
+}
+
+.message{
+  cursor: pointer;
+  width: 10rem;
+  height: 5rem;
+  border: solid coral;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  margin: 5rem;
 }
 
-.principal{
-  width: 50%;
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.principal div{
-  border: solid gray;
-  padding: 1rem;
-}
-
-.venda-abacaxi{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.abacaxi{
-  width: 50%;
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.abacaxi div{
-  border: solid gray;
-  padding: 1rem;
-}
 
 /*
 
@@ -38,6 +25,8 @@
   text-transform: capitalize;
 }
 */
+
+
 
 
 /*
