@@ -1,22 +1,7 @@
 .App{
-  font-size: 20px;
-}
-
-.App input{
-  width: 20%;
-  margin-left: 1rem;
-}
-
-.message{
-  cursor: pointer;
-  width: 10rem;
-  height: 5rem;
-  border: solid coral;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 5rem;
 }
+
 
 
 /*
