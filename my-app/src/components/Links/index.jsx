@@ -2,7 +2,7 @@ import "./style.css";
 
 function Links({link}) {
   return (
-      <div className="Links">
+      <div className="links">
         <>
             {
                 link &&
