@@ -5,9 +5,8 @@ function Links({link}) {
       <div className="Links">
         <>
             {
-                link 
-                ? (<a href="/">Saiba Mais</a>)
-                : (<a href="/">Informações</a>)
+                link &&
+                (<a href="/">Saiba Mais</a>)
             }
         </>
       </div>

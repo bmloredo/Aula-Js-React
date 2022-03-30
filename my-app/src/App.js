@@ -5,7 +5,6 @@ import Cards from "./components/Cards";
 import Links from "./components/Links";
 
 function App() {
-  const link = false
   return (
     <div>
     <div className="App">
@@ -14,8 +13,8 @@ function App() {
       <Cards text="Terceiro Card"/>
       <Cards text="Quarto Card"/>
     </div>
-      <Links link={link}/>
-      
+      <Links link={true}/>
+      <Links link={false}/>
     </div>
   );
 }
