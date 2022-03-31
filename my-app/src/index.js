@@ -9,7 +9,7 @@ import Routers from './router'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Routers/>
+    <App/>
   </React.StrictMode>,
   document.getElementById("root")
 );
