@@ -2,8 +2,7 @@ import React from "react";
 import { Instrumento, Fruta } from "./utils";
 
 const App = (props) => {
-  const utensilio = 'ventilador'
-  const utilidade = 'dormir'
+
   return(
     <>
     <div>
