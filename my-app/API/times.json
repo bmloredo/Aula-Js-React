@@ -1,0 +1,88 @@
+[
+    {
+        "id": 1,
+        "time": {
+            "nome": "São Paulo",
+            "qtJogadores": 11
+        },
+        "jogadores": {
+           "goleiro": "Jandrei",
+           "zagueiro1" : "Diego Costa",
+           "zagueiro2" : "Arboleda",
+           "lateralEsquerdo": "Léo",
+           "lateralDireito": "Rafinha",
+           "meio1": "Igor Gomes",
+           "meio2": "Rodrigo Nestor",
+           "meio3": "Patrick",
+           "meio4": "Reinaldo",
+           "atacante1": "Luciano",
+           "atacante2": "Calleri"
+        },
+        "tecnico": "Rogério Ceni"
+    },
+    {
+        "id": 2,
+        "time": {
+            "nome": "Palmeiras",
+            "qtJogadores": 11
+        },
+        "jogadores": {
+           "goleiro": "Weverton",
+           "zagueiro1" : "Mayke",
+           "zagueiro2" : "Gustavo Gómez",
+           "lateralEsquerdo": "Luan",
+           "lateralDireito": "Piquerez",
+           "meio1": "Danilo",
+           "meio2": "Gabriel Menino",
+           "meio3": "Gustavo Scarpa",
+           "meio4": "Gabriel Veron",
+           "atacante1": "Dudu",
+           "atacante2": "Rony"
+        },
+        "tecnico": "João Martins"
+    },
+    {
+        "id": 3,
+        "time": {
+            "nome": "Corinthians",
+            "qtJogadores": 11
+        },
+        "jogadores": {
+           "goleiro": "Cássio",
+           "zagueiro1" : "Raul Gustavo",
+           "zagueiro2" : "Gil",
+           "lateralEsquerdo": "Fábio Santos",
+           "lateralDireito": "Rafael Ramos",
+           "meio1": "Du Queiroz",
+           "meio2": "Cantillo",
+           "meio3": "Renato",
+           "meio4": "Adson",
+           "atacante1": "Gustavo Matuan",
+           "atacante2": "Róger Guedes"
+        },
+        "tecnico": "Vítor Pereira"
+    },
+    {
+        "id": 4,
+        "time": {
+            "nome": "Seleção Brasileira",
+            "qtJogadores": 11
+        },
+        "jogadores": {
+           "goleiro": "Weverton",
+           "zagueiro1" : "Thiago Silva",
+           "zagueiro2" : "Marquinhos",
+           "lateralEsquerdo": "Danilo",
+           "lateralDireito": "Guilherme Arana ",
+           "meio1": "Casemiro",
+           "meio2": "Fred",
+           "meio3": "Anthony",
+           "meio4": "Paquetá",
+           "atacante1": "Vini Jr.",
+           "atacante2": "Neymar"
+        },
+        "tecnico": "Tite"
+    }
+]
+
+
